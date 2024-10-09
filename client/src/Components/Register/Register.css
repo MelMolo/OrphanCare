@@ -1,0 +1,49 @@
+/*# sourceMappingURL=Register.css.map */
+
+
+button {
+    background-color: #d81e1e;
+    border: 1px solid #d81e1e;
+    border-radius: 5px;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+  }
+
+  .btn {
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(234, 230, 230);
+    border-radius: 10px;
+    margin: auto;
+  }
+
+
+  label {
+    display: block;
+    margin-bottom: 1px;
+    font-weight: bold;
+  }
+  
+  input[type="email"],
+  input[type="password"],
+  input[type="text"] {
+    width: 100%;
+    padding: 1px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
